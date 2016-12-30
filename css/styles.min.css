@@ -989,11 +989,12 @@ a {
     text-indent: 1.5625rem;
     font-size: 16px;
     font-size: 1rem; }
-  .main__strong {
-    color: white;
-    font-weight: normal;
+  .main__text_white {
     font-size: 18px;
     font-size: 1.125rem; }
+  .main__strong, .main__text_white {
+    color: white;
+    font-weight: normal; }
   .main__list {
     padding: 0.3em 3em; }
   .main__item {
@@ -1032,7 +1033,8 @@ a {
   color: #282828;
   margin: 5px 0;
   padding: 0 0.5rem;
-  font-size: 14px; }
+  font-size: 15px;
+  font-family: 'Noto Sans', sans-serif; }
   .teacher__img-wrap {
     max-width: 150px;
     max-height: 270px;
@@ -1053,8 +1055,9 @@ a {
         max-width: 75%;
         flex-basis: 75%; } }
     .teacher__info .main__list {
-      padding: 0.3em 2em; }
+      padding: 0.3em 1.2em; }
   .teacher__name {
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'gilroy extrabold', open-sans, sans-serif;
-    color: #003366; }
+    color: #003366;
+    padding: 0 0 0 1em; }
