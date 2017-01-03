@@ -784,7 +784,7 @@
 .link, .header__link, .header__link_active, .menu__link, .menu__link_active, .footer__link, .main__link, .teacher__link {
   color: #003366; }
   .link:hover, .header__link:hover, .header__link_active:hover, .menu__link:hover, .menu__link_active:hover, .footer__link:hover, .main__link:hover, .teacher__link:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
 
 /* img-wrap */
 .img-wrap, .img-wrap_round, .socials__link, .teacher__img-wrap {
@@ -834,9 +834,10 @@
   .header__link, .header__link_active {
     margin: 0 7px;
     font-family: 'gilroy extrabold', open-sans, sans-serif;
-    font-size: 16px; }
-  .header__link_active {
+    font-size: 16px;
     text-decoration: underline; }
+  .header__link_active {
+    text-decoration: none; }
 
 /* menu */
 .menu {
@@ -848,9 +849,10 @@
     box-sizing: border-box;
     margin: 0 7px;
     white-space: nowrap;
-    font-size: 16px; }
-  .menu__link_active {
+    font-size: 16px;
     text-decoration: underline; }
+  .menu__link_active {
+    text-decoration: none; }
 
 /* footer */
 .footer {
@@ -900,9 +902,6 @@ html {
 html,
 body {
   height: 100%; }
-
-a {
-  text-decoration: none; }
 
 .wrapper {
   display: flex;
@@ -1000,11 +999,9 @@ a {
     padding: 0;
     color: #282828;
     font-family: 'Noto Sans', sans-serif;
-    text-indent: 1.5625rem;
     font-size: 16px;
     font-size: 1rem; }
   .main__text_white {
-    text-indent: 1.5625rem;
     font-size: 18px;
     font-size: 1.125rem; }
   .main__strong, .main__text_white {
@@ -1041,6 +1038,8 @@ a {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     font-size: 1rem; }
+    .course__text p {
+      margin: 5px 0; }
 
 /* teacher */
 .teacher {
